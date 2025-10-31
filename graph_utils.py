@@ -3,7 +3,7 @@ from langchain_community.chains.graph_qa.cypher import GraphCypherQAChain
 from langchain_community.graphs import Neo4jGraph
 from langchain_openai import ChatOpenAI
 
-@st.cache.resource(show_spinner=False)
+@st.cache_resource(show_spinner=False)
 def initialize_resources(api_key: str):
     graph = Neo4jGraph(url=st.secrets["NEO4J_URI"], 
     username=st.secrets["NEO4J_USER"], 
