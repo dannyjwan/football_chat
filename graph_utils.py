@@ -20,6 +20,6 @@ def initialize_resources(api_key: str):
         )
     return graph, chain
 
-def guery_graph(chain: GraphCypherQAChain, query: str):
+def query_graph(chain: GraphCypherQAChain, query: str):
     result = chain.invoke({"query": query})["result"]
     return result 

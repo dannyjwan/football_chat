@@ -1,5 +1,5 @@
 streamlit
 langchain
 langchain-openai
-langchain_community
+langchain-community
 neo4j
