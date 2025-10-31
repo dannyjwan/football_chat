@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain.chains import GraphCypherQAChain
+from langchain_community.chains.graph_qa.cypher import GraphCypherQAChain
 from langchain_community.graphs import Neo4jGraph
 from langchain_openai import ChatOpenAI
 

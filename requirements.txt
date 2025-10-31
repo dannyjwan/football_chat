@@ -1,5 +1,5 @@
 streamlit
-langchain
-langchain-openai
-langchain-community
-neo4j
+langchain==0.2.16
+langchain-openai==0.2.2
+langchain-community==0.2.16
+neo4j==5.23.0
