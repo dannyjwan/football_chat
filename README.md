@@ -1,4 +1,4 @@
-# International Football Graph
+# International Football Knowledge Chatbot
 A Streamlit app that uses Neo4j graph database and OpenAI's GPT-4o model to anser questions about the international football history from 1872 to present.
 
 ## Setup
